@@ -12,7 +12,7 @@ if __name__ == "__main__":
     
     num_filters = 8
     filter_size = 3
-    pool_size = 22
+    pool_size = 24
 
     NN = NeuralNetwork(format = Format.CNN ,input_vector= np.random.randn(4,1) ,hidden_neurones=[3], state='start' )
     

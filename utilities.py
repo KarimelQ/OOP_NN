@@ -13,4 +13,6 @@ def load_data():
     
     #modif master 1 
 
+    #modif master 2
+
     return X_train, y_train, X_test, y_test

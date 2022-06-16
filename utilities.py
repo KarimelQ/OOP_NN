@@ -11,4 +11,6 @@ def load_data():
     X_test = np.array(test_dataset["X_test"][:]) # your train set features
     y_test = np.array(test_dataset["Y_test"][:]) # your train set labels
     
+    #modif master 1 
+
     return X_train, y_train, X_test, y_test
